@@ -1,12 +1,8 @@
-# DEPRECATED - Collection of helm charts
+# This is a repository containing the old releases of Billimek's helm charts before moving to k8s-at-home. Bezerker will be updating only the charts he uses on a daily basis.
 
-**This chart has been deprecated and moved to its new home:**
-
-- **Source repo:** https://github.com/k8s-at-home/charts
-- **Charts repo:** https://k8s-at-home.com/charts/
 
 ```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm repo add updated-billimek-charts
 helm repo update
-helm search repo k8s-at-home
+helm search repo updated-billimek-charts
 ```
